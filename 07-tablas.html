@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <h1>Tablas</h1>
+
+    <!-- Esctructura -->
+    <!-- table -->
+    <!-- tr => table row = fila -->
+    <!-- td => table data = celda -->
+
+
+    <table border=1>
+        <tr>
+            <td>Uno</td>
+            <td>Dos</td>
+            <td>Tres</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+
+    </table>
+
+    <table border=1>
+        <caption>Titulo</caption>
+        <thead>
+            <tr>
+                <th>Uno</th>
+                <th>Dos</th>
+                <th>Tres</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Totales</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+
+<!-- Agrupacion celdas -->
+<!-- rowspan  ocupar mas de una fila -->
+<!-- colspan ocupar mas de una columna -->
+
+<h2>Agrupacion celdas</h2>
+<table border=1>
+    <tr>
+        <td>Uno</td>
+        <td>Dos</td>
+        <td>Tres</td>
+    </tr>
+    <tr>
+        <td rowspan="2">1</td>
+        <td colspan="2">2</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+
+</table>
+</body>
+
+</html>
