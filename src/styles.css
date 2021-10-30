@@ -1,0 +1,109 @@
+/* general  styles */
+html {
+  background-color: whitesmoke;
+  font-size: 1.4rem;
+  font-family: monospace;
+
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+
+li {
+  list-style-type: none;
+}
+/* ---- */
+/* navbar */
+.brandLogo {
+  max-width: 10%;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li-item:hover {
+  text-decoration: underline;
+}
+/* ---- */
+
+/* main title */
+
+.main-title {
+  text-align: center;
+}
+/* ------ */
+
+/* team name */
+.teamName:hover{
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+.teamName:hover::before {
+  content: "<";
+
+}
+.teamName:hover::after {
+  content: "/>";
+}
+/* ----- */
+
+/* ----- */
+/* banner */
+.banner-container {
+  max-width: 30vh;
+  margin: auto;
+}
+
+.banner {
+  max-width: 30vh;
+}
+
+/* -------- */
+
+/* main section */
+.section {
+  width: 90%;
+  margin: auto;
+  padding: .75rem;
+}
+/* ------- */
+
+/* skills */
+
+.list-item {
+  list-style-type: disc;
+}
+
+/* ------- */
+
+/* team roles */
+.role {
+  font-size: large;
+  font-weight: bold;
+
+}
+.role:hover{
+  font-size: .8rem;
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+.role:hover::before {
+  content: "<";
+
+}
+.role:hover::after {
+  content: "/>";
+}
